@@ -1,0 +1,41 @@
+table {
+    width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Encabezados principales */
+th {
+    background-color: #66a8be;
+    color: white;
+}
+
+/* Fondo del título "Area of workplace" */
+th[colspan] {
+    background-color: #d6eaf1;
+}
+
+/* Filas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #d6eaf1;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #91c4d5;
+}
+
+/* Fila resaltada (footer) */
+tfoot tr.highlight {
+    background-color: #b1cc7f;
+}
+
+/* Alineación del texto en la columna "Main mode" */
+th[rowspan], td:first-child {
+    text-align: left;
+}

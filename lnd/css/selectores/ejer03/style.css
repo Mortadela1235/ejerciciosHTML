@@ -1,0 +1,32 @@
+/* Estilos para los enlaces según sus estados */
+
+/* Estado normal */
+a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Al pasar el ratón sobre el enlace */
+a:hover {
+    color: white;
+    background-color: red;
+    text-decoration: underline;
+}
+
+/* Cuando el enlace está activo (al hacer clic) */
+a:active {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Enlaces visitados */
+a:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/* Cuando el enlace tiene el foco del teclado */
+a:focus {
+    color: blue;
+    text-decoration: underline;
+}

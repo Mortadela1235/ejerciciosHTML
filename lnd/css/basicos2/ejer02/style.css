@@ -1,0 +1,37 @@
+/* Estilos para la lista de navegación */
+.navegacion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion li {
+    display: inline-block;
+}
+
+/* Separadores entre enlaces */
+.navegacion li:not(:last-child)::after {
+    content: ' | ';
+    margin: 0 5px;
+}
+
+/* Estilos base para los enlaces */
+.navegacion a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Enlace visitado */
+.navegacion a:visited {
+    color: purple;
+}
+
+/* Efecto al pasar el ratón */
+.navegacion a:hover {
+    color: green;
+}
+
+/* Efecto al hacer clic */
+.navegacion a:active {
+    color: red;
+}

@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.teal { color: teal; }
+.red { color: red; }
+.blue { color: blue; }
+.orange { color: orange; }
+.purple { color: purple; }
+.olive { color: olive; }
+.fuchsia { color: fuchsia; }
+.green { color: green; }
+
+/* Fondos */
+.fondo-rojo { background-color: red; }
+.fondo-verde { background-color: green; }
+.fondo-azul { background-color: blue; }
+.fondo-negro { background-color: black; }
+.fondo-naranja { background-color: orange; }

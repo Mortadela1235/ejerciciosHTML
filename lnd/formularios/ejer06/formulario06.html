@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 06</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Preferencias</legend>
+            <table>
+                <tr>
+                    <td>Elija una fecha:</td>
+                    <td><input type="date" placeholder="dd/mm/aaaa"></td>
+                </tr>
+                <tr>
+                    <td>Elija una hora:</td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td>Elija un fichero:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="lenguaje" multiple>
+                            <option value="python">Python</option>
+                            <option value="html">HTML</option>
+                            <option value="visual_basic">Visual Basic</option>
+                            <option value="java">Java</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Elija un color:</td>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="hardware" value="hardwaremonitor_led"> Monitor LED<br>
+                        <input type="checkbox" name="hardware" value="hardwaressd"> SSD
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea rows="5" cols="48" placeholder="Inserte aqui el texto"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="instituto">Instituto:</label></td>
+                    <td><input type="text" id="instituto" name="instituto"></td>
+                </tr>
+                <tr>
+                    <td><label for="estudios">Estudios elegidos:</label></td>
+                    <td><input type="text" id="estudios" name="estudios"></td>
+                </tr>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><input type="text" id="nombre" name="nombre"></td>
+                </tr>
+                <tr>
+                    <td><label for="apellidos">Apellidos:</label></td>
+                    <td><input type="text" id="apellidos" name="apellidos"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="conector" value="conectorusb"> USB<br>
+                        <input type="radio" name="conector" value="conectorparalelo"> Paralelo<br>
+                        <input type="radio" name="conector" value="conectorps2"> PS2
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

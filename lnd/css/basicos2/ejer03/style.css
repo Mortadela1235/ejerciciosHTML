@@ -1,0 +1,33 @@
+/* Estilos generales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Encabezado */
+thead th {
+    background-color: #e0e0e0;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Filas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Efecto hover */
+tbody tr:hover {
+    background-color: #d9eef7; /* Azul claro */
+    cursor: pointer;
+}
+
+/* Estilo para celdas */
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}

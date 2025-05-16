@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 03</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Completar</legend>
+            <table>
+                <tr>
+                    <td>Elija un color:</td>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea rows="5" cols="53">Por favor, escriba aquí</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="lenguaje">
+                            <option value="java">Java</option>
+                            <option value="python">Python</option>
+                            <option value="html">HTML</option>
+                            <option value="visual_basic">Visual Basic</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="ciclo" value="cicloasir"> ASIR
+                        <input type="checkbox" name="ciclo" value="ciclodam"> DAM
+                        <input type="checkbox" name="ciclo" value="ciclodaw"> DAW
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Rellene las opciones siguientes</legend>
+            <table>
+                <tr>
+                    <td>Elija una fecha:</td>
+                    <td><input type="date" placeholder="dd/mm/aaaa"></td>
+                </tr>
+                <tr>
+                    <td>Elija un fichero:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="ciclo" multiple>
+                            <option value="smir">SMIR</option>
+                            <option value="asir">ASIR</option>
+                            <option value="dam">DAM</option>
+                            <option value="daw">DAW</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

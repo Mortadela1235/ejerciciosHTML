@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 01</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Rellenar</legend>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="idioma" value="idiomaingles"> Inglés<br>
+                        <input type="radio" name="idioma" value="idiomaaleman"> Alemán<br>
+                        <input type="radio" name="idioma" value="idiomafrances"> Francés
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="conector">
+                            <option value="usb">USB</option>
+                            <option value="paralelo">Paralelo</option>
+                            <option value="ps2">PS2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><input type="text" id="nombre" name="nombre"></td>
+                </tr>
+                <tr>
+                    <td><label for="apellidos">Apellidos:</label></td>
+                    <td><input type="text" id="apellidos" name="apellidos"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <table>
+                <tr>
+                    <td>
+                        <select name="sexo" multiple>
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="sexo" value="sexomujer"> Mujer<br>
+                        <input type="checkbox" name="sexo" value="sexohombre"> Hombre
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Elija una fecha:</label>
+                        <input type="date" placeholder="dd/mm/aaaa">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

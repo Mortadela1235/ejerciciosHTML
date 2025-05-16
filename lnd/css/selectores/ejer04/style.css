@@ -1,0 +1,25 @@
+/* Títulos de noticias */
+.noticia h2 {
+    color: darkblue;
+    font-family: Georgia, serif;
+}
+
+/* Primer párrafo de cada noticia en cursiva */
+.noticia p:first-of-type {
+    font-style: italic;
+}
+
+/* Enlaces dentro de .noticia: subrayado solo al pasar el ratón */
+.noticia a {
+    text-decoration: none; /* Quitar subrayado por defecto */
+}
+
+.noticia a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+/* Enlaces con clase .externo: color rojo y abrir en nueva pestaña */
+.noticia a.externo {
+    color: red;
+    /* El atributo target="_blank" ya está en el HTML */
+}

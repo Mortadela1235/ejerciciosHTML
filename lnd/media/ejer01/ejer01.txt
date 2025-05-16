@@ -1,0 +1,2 @@
+Formatos de audio : MP3, WAV, OGG, AAC, FLAC.
+Formatos de vídeo : MP4, WebM, Ogg (Theora), AVI, MOV.

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Estructura Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #header, #container, #main, #section1, #section2, #section3, #footer {
+            border: 1px solid black;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        #logo {
+            width: 200px;
+            height: 50px;
+            border: 1px dashed #ccc;
+            margin: 0 auto 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        #article1, #article2 {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .content-container {
+            flex: 2;
+        }
+        #section3 {
+            background-color: #e0e0e0;
+            text-align: center;
+        }
+        #footer {
+            background-color: #d0d0d0;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer-section {
+            display: inline-block;
+            width: 45%;
+            vertical-align: top;
+            margin: 0 2.5%;
+        }
+        .social-icons-container {
+        text-align: center;
+        margin-top: 20px;
+        }
+
+        .social-icon {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="container">
+        <div id="main">
+            <video controls>
+                <source src="/videos/Hacker-Hacker-nooo_.webm" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+        <div id="section1">
+            <div id="article1">
+                <div class="image-container">
+                    <img src="/imagenes/unnamed.jpg" alt="Imagen Artículo 1" style="width:100%;">
+                </div>
+                <div class="content-container">
+                    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button>+ info</button>
+                </div>
+            </div>
+        </div>
+        <div id="section2">
+            <div id="article2">
+                <div class="content-container">
+                    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button>+ info</button>
+                </div>
+                <div class="image-container">
+                    <img src="/imagenes/unnamed.jpg" alt="Imagen Artículo 2" style="width:100%;">
+                </div>
+            </div>
+        </div>
+        <div id="section3">
+            <h2>Personas que conectan con personas</h2>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-section">
+            <h3>Sabías que...</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>Dirección: Una dirección inventada, Barcelona<br>
+               Teléfono: 932 123 123<br>
+               Horario: Lu - Vie 09:00 - 13:00 / 16:00 - 19:30<br>
+               Sábado: 09:00 - 13:00</p>
+        </div>
+        <div class="social-icons-container">
+            <div class="social-icon">
+            </div>
+            <div class="social-icon">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
